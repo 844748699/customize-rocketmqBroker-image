@@ -129,6 +129,7 @@ Xms=$MAX_HEAP_SIZE
 Xmx=$MAX_HEAP_SIZE
 Xmn=$HEAP_NEWSIZE
 MaxDirectMemorySize=$MAX_HEAP_SIZE
+
 # Set for `JAVA_OPT`.
 JAVA_OPT="${JAVA_OPT} -server -Xms${Xms} -Xmx${Xmx} -Xmn${Xmn}"
 JAVA_OPT="${JAVA_OPT} -XX:+UseG1GC -XX:G1HeapRegionSize=16m -XX:G1ReservePercent=25 -XX:InitiatingHeapOccupancyPercent=30 -XX:SoftRefLRUPolicyMSPerMB=0 -XX:SurvivorRatio=8"

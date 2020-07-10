@@ -124,6 +124,7 @@ calculate_heap_sizes()
 
 calculate_heap_sizes
 
+ 
 # Dynamically calculate parameters, for reference.
 Xms=$MAX_HEAP_SIZE
 Xmx=$MAX_HEAP_SIZE
